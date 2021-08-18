@@ -20,8 +20,8 @@
             file_name="ШСА-18.12-0910.pdf"
     />
     <file
-            source_path="new_dir"
-            destination_path="new_dir"
+            source_path=""
+            destination_path=""
             file_name="sample.txt"
     />
 </config>
