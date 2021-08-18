@@ -25,10 +25,9 @@ class FileManager:
             df = dst + sep + fnm if dst else fnm
             try:
                 shutil.copyfile(sf, df)
-            # except OSError:
-            #     print(sf, df)
-            #     print(f'The destination location of file "{fnm}" is not writable')
-            except shutil.SameFileError:
+            except IOError:
+                print(f'The destination location of file "{fnm}" is not writable')
+            except shutil.SameFileError as exc:
                 print(f'Source and destination are the same file "{fnm}"')
 
 
