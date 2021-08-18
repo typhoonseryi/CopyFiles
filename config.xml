@@ -1,0 +1,27 @@
+<config>
+    <file
+            source_path=""
+            destination_path="new_dir"
+            file_name="sample.txt"
+    />
+    <file
+            source_path="C:\Билеты"
+            destination_path="new_dir"
+            file_name="ШСА-18.12-0910.pdf"
+    />
+    <file
+            source_path=""
+            destination_path="C:\Билеты"
+            file_name="sample.txt"
+    />
+    <file
+            source_path="C:\Билеты"
+            destination_path="C:\Билеты"
+            file_name="ШСА-18.12-0910.pdf"
+    />
+    <file
+            source_path="new_dir"
+            destination_path="new_dir"
+            file_name="sample.txt"
+    />
+</config>
