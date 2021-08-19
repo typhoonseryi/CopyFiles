@@ -26,9 +26,7 @@ class FileManager:
             try:
                 shutil.copyfile(sf, df)
             except IOError:
-                print(f'The destination location of file "{fnm}" is not writable')
-            except shutil.SameFileError as exc:
-                print(f'Source and destination are the same file "{fnm}"')
+                print(f'The file "{fnm}" cannot be copied')
 
 
 if __name__ == '__main__':

@@ -24,4 +24,8 @@
             destination_path=""
             file_name="sample.txt"
     />
+    <file
+            source_path=""
+            destination_path=""
+    />
 </config>
